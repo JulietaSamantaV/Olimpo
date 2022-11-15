@@ -54,17 +54,26 @@ body{
         gap: 10px;
     }
 }
+
 .typ1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding:5px 5%;
 }
+
 .titulo{
     text-align: center;
     font-family: 'Kolker Brush', cursive;  
-    font-size:120px ;   
+    font-size:120px ;  
 }
+
+.olimpo{
+   text-align: justify;
+   width: 50%;
+   height:50%;
+}
+
 .sc1{
     background-color: rgba(34, 25, 2, 0.500);
     display: flex;
@@ -74,6 +83,15 @@ body{
     padding:5px 10%;
     text-align: center;
 }
+
+.dioses{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    padding: 0px 50%;
+}
+
 .sc2{
     background-image: radial-gradient(circle at bottom center, rgba(139,92,2, 0.600),rgba(34,25,2, 0.600));
     display: flex;
@@ -81,4 +99,9 @@ body{
     justify-content: space-around;
     align-items: left; 
     padding:5px 10%;
+}
+
+.info{
+    margin: 5%;
+
 }
